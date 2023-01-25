@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(232, 243, 239);
+}
+
+.card-imagen{
+    margin-top: 50px;
+}
+
+
+
+/**@media (max-width: 768px){
+    #intro{
+      width: 90%;
+    }*/

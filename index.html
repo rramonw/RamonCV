@@ -5,56 +5,192 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Mario Sanchez</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Curriculum Vitae</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid">
+        <!-- barra de navegacion-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a href="#con" class="navbar-brand"><img src="img/logo.PNG" alt=""id="logo"> Curriculum Vitae</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#BarraNavegacion">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-nav ml-auto" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Educacion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia Laboral</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Idioma</a>
-              </li>
+            </button> 
+          <div id="BarraNavegacion" class="collapse navbar-collapse justify-content-end">
+              <ul class="navbar-nav ms-3">
+                <li class="nav-item"><a class="nav-link" href="#con">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="#exp">Experiencia Laboral</a></li>
+                <!--<li class="nav-item"><a class="nav-link" href="#edu">Educacion</a></li>-->
+                <li class="nav-item"><a class="nav-link" href="#hab">Habilidades</a></li>
+              </ul>
+          </div>
+          </div>
+        </nav>
+      </div>
+  <div class="container-fluid">
+    <div class="card text-bg-dark text-center card-imagen">
+      <img src="img/fondo.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay ">
+        <h1 class="card-title">MARIO SANCHEZ</h1>
+        <p class="card-text">LICENCIADO EN ADMINISTRACION</p>
+  </div>
+  <div class="container">
+    <div class="row w-75 mx-auto my-5 justify-content-center " id="contacto">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-columnas">
+        <div class="card h-100" style="width: 18rem;">
+          <img src="/img/foto.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><h4>Datos Personales</h4></li>
+              <li class="list-group-item">Nacionalidad: Argentina</li>
+              <li class="list-group-item">Fecha de Nacimiento: 20-04-85</li>
+              <li class="list-group-item">Edad: 37</li>
+              <li class="list-group-item">Telefono: 1156737896</li>
+              <li class="list-group-item">Correo: correo@gmial.com</li>
+              <li class="list-group-item">Direccion: Avenida Siempre Viva 742</li>
             </ul>
           </div>
         </div>
-      </nav>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet quis leo sit amet lobortis. Curabitur volutpat vel dolor et laoreet. Mauris varius felis id semper rutrum. Sed tempus mattis interdum. Pellentesque sed vestibulum eros, nec convallis mauris. Cras dapibus sem at leo scelerisque fringilla. Duis tincidunt malesuada nisl, in iaculis massa iaculis vitae. Integer ultrices euismod turpis id porttitor. Mauris nisl velit, feugiat nec aliquet sed, suscipit quis massa. Etiam auctor molestie dolor id egestas. Fusce dapibus a magna a dictum. Duis et viverra nunc, in finibus sem.
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-columnas">
+        <div class="card h-100 text-bg-secondary" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Sobre Mi</h5>
+            <p class="card-text">Soy una persona proactiva, excelente compañero de equipo, organizado y responsable. Disfruto
+              mucho aprender cosas nuevas, por lo que mi objetivo es un puesto desafiante y dinámico donde
+              poder compartir mi experiencia y a su vez sumar nuevos conocimientos.</p>
+          </div>
+        </div>
+      </div>
+      <article class="galeria" id="experiencia">
+        <h3>Experiencia Laboral</h3>
+            <!--<a href="#" class=""><img src="..." alt=""></a>-->
+        <h5>Responsable de Administración</h5>
+        <h6>Empresa Increíble, Ene 2016 - Jul 2017</h6>
+        <ul>
+          <li>Recepción de Clientes. Manejo de Conmutador.</li>
+          <li>Asistencia a mesa de entradas. Mantenimiento dearchivo.</li>
+        </ul>
+        <h5>Asistente Administrativo</h5>
+        <h6>Empresa Increíble, Ene 2016 - Jul 2017</h6>
+        <ul>
+          <li>Recepción de Clientes. Manejo de Conmutador.</li>
+          <li>Asistencia a mesa de entradas. Organización delibro de entrada y salida. Mantenimiento de archivo.</li>
+        </ul>
+        <h5>Pasante Administrativo</h5>
+        <h6>Empresa Increíble, Ene 2016 - Jul 2017</h6>
+        <ul>
+          <li>Recepción de Clientes. Manejo de Conmutador.</li>
+          <li>Asistencia a mesa de entradas. Organización de libro de entrada y salida.</li>
+        </ul>
+    </article>
+    <article class="galeria" id="educacion">
+      <h3>Educacion</h3>
+          <!--<a href="#" class=""><img src="..." alt=""></a>-->
+      <h5>Universidad Increíble</h5>
+      <h6>Lic. en Administración, 2016</h6>
+      <ul>
+        <li>Promedio académico 8,5</li>
+      </ul>
+      <h5>Colegio Secundario Increíble</h5>
+      <h6>Bachiller en Bienes y Servicios, 2012</h6>
+      <ul>
+        <li>Diploma Alumno Destacado, 2012</li>
+      </ul>
+    </article>
+  <article class="galeria" id="habilidades">
+    <h3>Habilidades</h3>
+        <!--<a href="#" class=""><img src="..." alt=""></a>-->
+    <h5>Curso de Informática</h5>
+       <ul>
+          <li>Instituto Increíble, 2019.</li>
+       </ul>
+    <h5>Sistema de Gestión de Ventas</h5>
+        <ul>
+          <li>Conocimiento avanzado.</li>
+          <li>Instituto increíble, 2018.</li>
+        </ul>
+  </article>
+  <article class="galeria"  id="idioma">
+    <h3>Idiomas</h3>
+        <!--<a href="#" class=""><img src="..." alt=""></a>-->
+    <h5>Idioma Inglés</h5>
+       <ul>
+          <li>Nivel Oral Bilingüe</li> 
+          <li>Nivel Escrito Avanzado.</li>
+       </ul>
+  </article>
+    
+  <form name="myForm" action="" onsubmit="return validateForm()" method="POST">
+      Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+    </form>
+    
+  
+      <!--<div class="col-lg-4 col-md-12 col-sm-12 col-columnas">
+        <div class="card h-100" style="width: 18rem;">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </div>
 
-        Morbi convallis gravida metus, at hendrerit erat volutpat id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam et metus nec blandit. Nulla dui nunc, blandit nec congue at, tristique non mauris. Nunc convallis orci orci, sed maximus mauris malesuada non. Fusce pellentesque ullamcorper dignissim. Nunc hendrerit tempor libero, in ullamcorper erat condimentum ac. Integer tincidunt lobortis convallis. Nam lectus neque, eleifend id lectus sed, suscipit eleifend nunc.
+      <!--<h2>Datos Personales</h2>
+      <div class="container-fluid" id="contacto">
+        <p class="datos">Nacionalidad:</p>
+        <p>Argentino</p>
+      </div>
+      <div class="container-fluid" id="contacto">
+        <p class="datos">Fecha De Nacimiento: </p>
+        <p>30-04-1985</p>
+      </div>
+      <div class="container-fluid" id="contacto">
+        <p class="datos">Edad: </p>
+        <p>37</p>
+      </div>
+      <div class="container-fluid" id="contacto">
+        <p class="datos">Telefono: </p>
+        <p>1167890987</p>
+      </div>
+      <div class="container-fluid" id="contacto">
+        <p class="datos">Correo: </p>
+        <p>correo@gmail.com</p>
+      </div>
+      <div class="container-fluid" id="contacto">
+        <p class="datos">Direccion: </p>
+        <p>Avenida Siempre Viva 357</p>
+      </div>
+      <div>
+        <h2>Sobre Mi</h2>
+        <p>Soy una persona proactiva, excelente compañero de equipo, organizado y responsable. Disfruto
+          mucho aprender cosas nuevas, por lo que mi objetivo es un puesto desafiante y dinámico donde
+          poder compartir mi experiencia y a su vez sumar nuevos conocimientos.</p>
+        </div>-->
         
-        Vestibulum ut mattis turpis, eu tristique nibh. Pellentesque feugiat tempus augue quis condimentum. Nam euismod neque ac risus gravida venenatis. Mauris ultrices purus a ligula egestas, sed auctor dui tempor. Duis tempor ex ut nisi ultricies ultricies. Ut dapibus lorem id convallis rhoncus. Donec nulla ligula, lobortis efficitur maximus eu, tincidunt ut libero. Suspendisse potenti. Nulla facilisi. Ut maximus, urna ut suscipit vulputate, tortor mauris faucibus arcu, et pulvinar nisi neque eu mauris. Vivamus et enim felis. Phasellus nibh urna, commodo id interdum eget, egestas eu felis. Vivamus ut ipsum a sapien placerat imperdiet. Suspendisse vitae tellus in urna consequat aliquet. Aliquam erat volutpat.
-        
-        Pellentesque porta ultrices laoreet. Nam imperdiet orci libero. Etiam non ultrices turpis, vel accumsan purus. Phasellus et ligula eu nisl facilisis commodo. Nunc eget convallis eros, id laoreet libero. Curabitur blandit posuere tempus. Duis viverra vehicula dui ut pellentesque. Quisque in arcu sodales, cursus magna eget, auctor dui. Curabitur volutpat rutrum gravida. Ut sit amet arcu at lacus suscipit dictum sed in ex. Integer non lorem nec lorem porta tempus eget sed justo. Morbi nec dolor at dui ultricies ornare quis vulputate orci.
-        
-        Etiam commodo tincidunt tortor, ac placerat nulla. Morbi id efficitur ligula, accumsan vestibulum augue. Nullam eleifend commodo massa ac molestie. Quisque interdum ante in iaculis dignissim. Quisque euismod porta risus eget pretium. Sed sodales quam eu mi suscipit gravida. Cras arcu libero, viverra ac magna ac, mattis lobortis risus. Ut commodo, lectus sit amet maximus semper, dui ex malesuada elit, a pellentesque erat ex a ante. Vestibulum sagittis feugiat dolor in molestie. Nam blandit vel mi vel mattis.
-        
-        Nam tincidunt orci in enim mattis mattis. Aliquam erat volutpat. Quisque vitae luctus augue. Aliquam non arcu libero. Nam hendrerit, justo sit amet tincidunt venenatis, velit nunc tincidunt ligula, non pretium felis magna id lorem. Ut scelerisque non ex sed rutrum. Pellentesque euismod ac erat ac venenatis. Sed posuere nisi elit, ac sollicitudin leo vehicula ac. Etiam accumsan euismod venenatis. Suspendisse accumsan auctor bibendum. Integer rutrum nunc vel sem gravida facilisis. Nullam molestie lectus vel diam accumsan placerat.
-        
-        Etiam vel ornare eros. Etiam molestie tellus id efficitur consequat. Quisque quis hendrerit urna, ultrices facilisis nunc. Phasellus eleifend dolor ipsum, eget mattis felis vehicula at. Etiam mi nulla, scelerisque elementum justo non, iaculis venenatis lorem. Sed diam urna, bibendum ac ante ac, tempus elementum nunc. Mauris quis tortor dolor. Etiam sit amet dapibus ante. Vivamus aliquam metus condimentum neque viverra, in mollis est semper. Vestibulum luctus eget nisl eu congue.
-        
-        Praesent varius, est vel pharetra lobortis, justo orci lobortis lorem, eu tincidunt est nulla ut erat. Mauris sed venenatis erat. Maecenas eget libero nunc. Aliquam eget egestas risus, vel venenatis arcu. Integer dictum velit sapien, vel cursus magna porta sit amet. Nullam quis purus ligula. Phasellus eleifend turpis eget eros lacinia elementum. Morbi consequat nibh quis leo consectetur dictum. Etiam magna nisi, laoreet consectetur lectus in, consectetur posuere lectus. Donec sed ante sit amet tellus pellentesque commodo. Integer varius, ligula in vestibulum finibus, sapien metus semper ligula, ac sollicitudin arcu dui fermentum massa. Curabitur ullamcorper gravida nulla lobortis commodo.
-        
-        Donec tempus vehicula dui a molestie. Integer a elit nec lacus semper volutpat. Morbi pellentesque consectetur varius. Donec iaculis nibh sem, ornare condimentum dui faucibus et. Nulla consectetur quam sed nunc dapibus mattis. Praesent finibus erat ante, eget fringilla elit dapibus egestas. Quisque ornare vestibulum velit quis scelerisque.
-        
-        Cras vel risus interdum, facilisis massa et, elementum mi. Fusce vulputate lectus nisl, ac mollis lectus euismod id. Maecenas gravida turpis mauris, vel semper mauris aliquam a. Cras commodo tempus pharetra. Curabitur sit amet mattis urna, sit amet consequat elit. Phasellus vulputate enim justo, id condimentum nibh sollicitudin sit amet. Proin vestibulum sit amet eros sed laoreet. Donec posuere velit quis fringilla pellentesque. Suspendisse potenti. Curabitur in erat ullamcorper, lobortis sapien eget, gravida risus. Proin mollis libero eu nisi pharetra consequat. Vestibulum a interdum lorem. Cras aliquam velit at leo tempor lacinia. Quisque non lorem volutpat, tempor turpis rhoncus, commodo ligula. Cras porttitor vel magna quis efficitur.</p>
+      <!--<div class="card text-bg-primary mb-3 text-center" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Sobre Mi</h5>
+          <p class="card-text">Soy una persona proactiva, excelente compañero de equipo, organizado y responsable. Disfruto
+            mucho aprender cosas nuevas, por lo que mi objetivo es un puesto desafiante y dinámico donde
+            poder compartir mi experiencia y a su vez sumar nuevos conocimientos.</p>
+        </div>
+      </div>-->
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    <script src="js/form.js"></script> 
+
     
 </body>
 </html>
