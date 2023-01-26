@@ -17,6 +17,7 @@ h4{
     margin-left: 40px;
     }
 
+/**Foto de  Perfil*/
 #foto{
     margin-top: 5px;
 }
@@ -48,6 +49,10 @@ h4{
     margin-bottom: 10px;
 }
 
+#verReferencias{
+    
+    margin-top: 40px;
+}
 
 p{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
@@ -57,16 +62,6 @@ p{
 
 /**Media Queris, Pantalla Moviles*/
 @media (max-width: 768px){
-    #nombre{
-        font-size: 25px;
-    }
-
-    #titulo{
-        font-size: 20px;
-    }
-    img{
-        width: 80%;
-    }
 
     #logo{
         width: 130px;
@@ -96,5 +91,64 @@ p{
         font-size: 25px;
     }
 }
+
+@media (max-width: 370px){
+
+    #logo{
+        width: 80px;
+        height: 24px;
+    }
+
+    #nombre{
+        margin-top: auto;
+        
+    }
+
+    #titulo{
+        margin-top: auto;
+    }
+
+    
+}
+
+@media (max-width: 330px){
+
+    #logo{
+        width: 60px;
+        height: 18px;
+    }
+
+    #tituloBarra{
+        font-size: 10px;
+    }
+
+    #nombre{
+        font-size: 15px;
+        margin-top: auto;
+        
+    }
+
+    #titulo{
+        font-size: 10px;
+        margin-top: auto;
+        
+    }
+
+    h4{
+        font-size: 20px;
+    }
+
+    .listas{
+        font-size: 10px;
+    }
+
+    #sobreMi{
+        font-size: 10px;
+    }
+
+    
+}
+
+
 
 

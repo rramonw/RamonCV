@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Mario Sanchez</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
     crossorigin="anonymous">
@@ -12,10 +13,10 @@
 </head>
 <body>
     <div class="container-fluid">
-        <!-- barra de navegacion-->
+        <!-- Barra de Navegacion-->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
           <div class="container-fluid">
-            <a href="#con" class="navbar-brand"><img src="img/logo.PNG" alt=""id="logo"> Curriculum Vitae</a>
+            <a href="#con" class="navbar-brand" id="tituloBarra"><img src="img/logo.PNG" alt="Cursos Ticmas"id="logo"> Curriculum Vitae</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#BarraNavegacion">
             <span class="navbar-toggler-icon"></span>
             </button> 
@@ -30,6 +31,7 @@
           </div>
         </nav>
       </div>
+      <!--Comienzo del contenido-->
       <div class="container-fluid container-inicio">
         <div class="row justify-content-center">
           <div class="col text-center" id="con">
@@ -37,7 +39,7 @@
                 <img src="img/fondo.jpg" class="card-img" alt="...">
                 <div class="card-img-overlay">
                   <h1 class="card-title" id="nombre">MARIO SANCHEZ</h1>
-                  <h4 id="titulo">Licenciado en Administracion</h4>
+                  <h4 id="titulo">Licenciado en Administración</h4>
                 </div>
             </div>
           </div>
@@ -45,7 +47,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-6 col-md-12 col-sm-12 text-center">
             <article id="foto">
-                <img class="img-fluid" src="img/foto.png" alt="">
+                <img class="img-fluid" src="img/foto.png" alt="Forto de Perfil">
                 <h4>Datos Personales</h4>
                 <ul class="listas"id="datos-personales">
                     <li>Nacionalidad: Argentina</li>
@@ -61,17 +63,42 @@
             <article id="exp">
                 <h4>Experiencia Laboral</h4>
                 <ul class="listas" id=experiencia>
-                    <li>Responzable de Administración. Companía De Seguros Rivadavia. Al presente.  
+                    <li>Responzable de Administración. Compañía De Seguros Rivadavia. Al presente.  
                         Supervisión del área de pago a proovedores.
                     </li>
-                    <li>Asistente Administrativo. Companía Pepsico. 2016-2018.
+                    <li>Asistente Administrativo. Compañía Pepsico. 2016-2018.
                         Encargado de facturación.
                     </li>
-                    <li>Pasante Administrativo. Companía Mimo & Co. 2014-2015.
+                    <li>Pasante Administrativo. Compañía Mimo & Co. 2014-2015.
                         Cadete administrativo, realización de trámites bancarios, asistente de facturación.   
                     </li>
                 </ul>
             </article>
+            <!--Boton de referencias-->
+            <p>
+              <button class="btn btn-secondary" id="btnReferencias" type="button" data-bs-toggle="collapse" data-bs-target="#verReferencias" aria-expanded="false" aria-controls="collapseExample">
+                Ver Referencias
+              </button>
+            </p>
+            <div class="collapse" id="verReferencias">
+              <div class="card card-body">
+                <ul class="listas">
+                  <li>
+                    Compañia de seguros Rivadavia: rrhh@segurosrivadavia.com.ar. 
+                    Contacto en RRHH: Miguel Rodriguez.
+                  </li>
+                  <li>
+                    Pepsico: referenciaslaborales@pepsico.com.ar.
+                    Contacto en RRHH: Sara Gonzalez
+                    Gerente del área de administración: Mario Guccione +54-1199999999
+                  </li>
+                  <li>
+                    Mimo & Co: rogeliogomez@mimorrhh.com.ar.
+                    Gerente del área de administración: Andrea Bocelli +54-221567567
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div class="row justify-content-center" id="edu">
@@ -114,11 +141,12 @@
           <div class="col-lg-6 col-md-12 col-sm-12 text-center">
             <article>
                 <h4>Sobre Mi</h4>
-                <p id=sobremi>Soy una persona proactiva, excelente compañero de equipo, organizado y responsable. 
+                <p id=sobreMi>Soy una persona proactiva, excelente compañero de equipo, organizado y responsable. 
                   Disfruto mucho aprender cosas nuevas, por lo que mi objetivo es un puesto desafiante 
                   y dinámico donde poder compartir mi experiencia y a su vez sumar nuevos conocimientos.</p>
             </article>
           </div>
+          <!--Formulario de Contacto-->
           <div class="col-lg-6 col-md-12 col-sm-12 text-center">
             <div class="formulario">
              <h5>Contáctame</h5>
@@ -144,7 +172,7 @@
                  </div>
                </div>
                <div class="col">
-                 <button class="btn btn-primary" id="btnForm" type="submit">Enviar</button>
+                 <button class="btn btn-secondary" id="btnForm" type="submit">Enviar</button>
                </div>
             </form>
             </div>
